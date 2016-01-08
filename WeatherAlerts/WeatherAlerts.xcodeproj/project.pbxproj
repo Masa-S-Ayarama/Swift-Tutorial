@@ -12,6 +12,8 @@
 		47BFE3771C3F8007004C90D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BFE3751C3F8007004C90D4 /* Main.storyboard */; };
 		47BFE3791C3F8007004C90D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BFE3781C3F8007004C90D4 /* Assets.xcassets */; };
 		47BFE37C1C3F8007004C90D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BFE37A1C3F8007004C90D4 /* LaunchScreen.storyboard */; };
+		47BFE3841C3F8AC7004C90D4 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47BFE3831C3F8AC7004C90D4 /* ApiKeys.plist */; };
+		47BFE3861C3F8B5F004C90D4 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BFE3851C3F8B5F004C90D4 /* ApiKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		47BFE3781C3F8007004C90D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47BFE37B1C3F8007004C90D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47BFE37D1C3F8007004C90D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BFE3831C3F8AC7004C90D4 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		47BFE3851C3F8B5F004C90D4 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				47BFE3711C3F8007004C90D4 /* AppDelegate.swift */,
 				47BFE3731C3F8007004C90D4 /* ViewController.swift */,
+				47BFE3851C3F8B5F004C90D4 /* ApiKeys.swift */,
 				47BFE3751C3F8007004C90D4 /* Main.storyboard */,
 				47BFE3781C3F8007004C90D4 /* Assets.xcassets */,
 				47BFE37A1C3F8007004C90D4 /* LaunchScreen.storyboard */,
 				47BFE37D1C3F8007004C90D4 /* Info.plist */,
+				47BFE3831C3F8AC7004C90D4 /* ApiKeys.plist */,
 			);
 			path = WeatherAlerts;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47BFE37C1C3F8007004C90D4 /* LaunchScreen.storyboard in Resources */,
+				47BFE3841C3F8AC7004C90D4 /* ApiKeys.plist in Resources */,
 				47BFE3791C3F8007004C90D4 /* Assets.xcassets in Resources */,
 				47BFE3771C3F8007004C90D4 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				47BFE3741C3F8007004C90D4 /* ViewController.swift in Sources */,
 				47BFE3721C3F8007004C90D4 /* AppDelegate.swift in Sources */,
+				47BFE3861C3F8B5F004C90D4 /* ApiKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
