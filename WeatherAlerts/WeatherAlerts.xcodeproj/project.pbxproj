@@ -14,6 +14,23 @@
 		47BFE37C1C3F8007004C90D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BFE37A1C3F8007004C90D4 /* LaunchScreen.storyboard */; };
 		47BFE3841C3F8AC7004C90D4 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47BFE3831C3F8AC7004C90D4 /* ApiKeys.plist */; };
 		47BFE3861C3F8B5F004C90D4 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BFE3851C3F8B5F004C90D4 /* ApiKeys.swift */; };
+		47BFE38E1C3F92CE004C90D4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3881C3F92CE004C90D4 /* Bolts.framework */; };
+		47BFE38F1C3F92CE004C90D4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3891C3F92CE004C90D4 /* Parse.framework */; };
+		47BFE3901C3F92CE004C90D4 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE38A1C3F92CE004C90D4 /* ParseFacebookUtils.framework */; };
+		47BFE3911C3F92CE004C90D4 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE38B1C3F92CE004C90D4 /* ParseFacebookUtilsV4.framework */; };
+		47BFE3921C3F92CE004C90D4 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE38C1C3F92CE004C90D4 /* ParseTwitterUtils.framework */; };
+		47BFE3931C3F92CE004C90D4 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE38D1C3F92CE004C90D4 /* ParseUI.framework */; };
+		47BFE39D1C3F93CB004C90D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3941C3F93CB004C90D4 /* AudioToolbox.framework */; };
+		47BFE39E1C3F93CB004C90D4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3951C3F93CB004C90D4 /* CFNetwork.framework */; };
+		47BFE39F1C3F93CB004C90D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3961C3F93CB004C90D4 /* CoreGraphics.framework */; };
+		47BFE3A01C3F93CB004C90D4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3971C3F93CB004C90D4 /* CoreLocation.framework */; };
+		47BFE3A11C3F93CB004C90D4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3981C3F93CB004C90D4 /* libsqlite3.tbd */; };
+		47BFE3A21C3F93CB004C90D4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3991C3F93CB004C90D4 /* libz.tbd */; };
+		47BFE3A31C3F93CB004C90D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE39A1C3F93CB004C90D4 /* QuartzCore.framework */; };
+		47BFE3A41C3F93CB004C90D4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE39B1C3F93CB004C90D4 /* Security.framework */; };
+		47BFE3A51C3F93CB004C90D4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE39C1C3F93CB004C90D4 /* StoreKit.framework */; };
+		47BFE3A71C3F93EE004C90D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BFE3A61C3F93EE004C90D4 /* SystemConfiguration.framework */; };
+		47BFE3AE1C3F9659004C90D4 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BFE3AD1C3F9659004C90D4 /* PushNotificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,24 @@
 		47BFE37D1C3F8007004C90D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47BFE3831C3F8AC7004C90D4 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
 		47BFE3851C3F8B5F004C90D4 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		47BFE3881C3F92CE004C90D4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		47BFE3891C3F92CE004C90D4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		47BFE38A1C3F92CE004C90D4 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		47BFE38B1C3F92CE004C90D4 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		47BFE38C1C3F92CE004C90D4 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		47BFE38D1C3F92CE004C90D4 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		47BFE3941C3F93CB004C90D4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		47BFE3951C3F93CB004C90D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		47BFE3961C3F93CB004C90D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47BFE3971C3F93CB004C90D4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		47BFE3981C3F93CB004C90D4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		47BFE3991C3F93CB004C90D4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		47BFE39A1C3F93CB004C90D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		47BFE39B1C3F93CB004C90D4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		47BFE39C1C3F93CB004C90D4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		47BFE3A61C3F93EE004C90D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		47BFE3AD1C3F9659004C90D4 /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
+		47BFE3B21C3F9912004C90D4 /* bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +68,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BFE3A71C3F93EE004C90D4 /* SystemConfiguration.framework in Frameworks */,
+				47BFE39D1C3F93CB004C90D4 /* AudioToolbox.framework in Frameworks */,
+				47BFE39E1C3F93CB004C90D4 /* CFNetwork.framework in Frameworks */,
+				47BFE39F1C3F93CB004C90D4 /* CoreGraphics.framework in Frameworks */,
+				47BFE3A01C3F93CB004C90D4 /* CoreLocation.framework in Frameworks */,
+				47BFE3A11C3F93CB004C90D4 /* libsqlite3.tbd in Frameworks */,
+				47BFE3A21C3F93CB004C90D4 /* libz.tbd in Frameworks */,
+				47BFE3A31C3F93CB004C90D4 /* QuartzCore.framework in Frameworks */,
+				47BFE3A41C3F93CB004C90D4 /* Security.framework in Frameworks */,
+				47BFE3A51C3F93CB004C90D4 /* StoreKit.framework in Frameworks */,
+				47BFE3931C3F92CE004C90D4 /* ParseUI.framework in Frameworks */,
+				47BFE38F1C3F92CE004C90D4 /* Parse.framework in Frameworks */,
+				47BFE38E1C3F92CE004C90D4 /* Bolts.framework in Frameworks */,
+				47BFE3911C3F92CE004C90D4 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				47BFE3901C3F92CE004C90D4 /* ParseFacebookUtils.framework in Frameworks */,
+				47BFE3921C3F92CE004C90D4 /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +93,8 @@
 		47BFE3651C3F8007004C90D4 = {
 			isa = PBXGroup;
 			children = (
+				47BFE3B21C3F9912004C90D4 /* bridgingHeader.h */,
+				47BFE3AC1C3F9620004C90D4 /* Framework */,
 				47BFE3701C3F8007004C90D4 /* WeatherAlerts */,
 				47BFE36F1C3F8007004C90D4 /* Products */,
 			);
@@ -58,16 +111,72 @@
 		47BFE3701C3F8007004C90D4 /* WeatherAlerts */ = {
 			isa = PBXGroup;
 			children = (
+				47BFE3B11C3F9684004C90D4 /* Model */,
+				47BFE3B01C3F967E004C90D4 /* View */,
+				47BFE3AF1C3F9660004C90D4 /* Controller */,
 				47BFE3711C3F8007004C90D4 /* AppDelegate.swift */,
-				47BFE3731C3F8007004C90D4 /* ViewController.swift */,
 				47BFE3851C3F8B5F004C90D4 /* ApiKeys.swift */,
 				47BFE3751C3F8007004C90D4 /* Main.storyboard */,
 				47BFE3781C3F8007004C90D4 /* Assets.xcassets */,
 				47BFE37A1C3F8007004C90D4 /* LaunchScreen.storyboard */,
+				47BFE3871C3F92CE004C90D4 /* parse-library-1.11.0 */,
+			);
+			path = WeatherAlerts;
+			sourceTree = "<group>";
+		};
+		47BFE3871C3F92CE004C90D4 /* parse-library-1.11.0 */ = {
+			isa = PBXGroup;
+			children = (
+				47BFE3881C3F92CE004C90D4 /* Bolts.framework */,
+				47BFE3891C3F92CE004C90D4 /* Parse.framework */,
+				47BFE38A1C3F92CE004C90D4 /* ParseFacebookUtils.framework */,
+				47BFE38B1C3F92CE004C90D4 /* ParseFacebookUtilsV4.framework */,
+				47BFE38C1C3F92CE004C90D4 /* ParseTwitterUtils.framework */,
+				47BFE38D1C3F92CE004C90D4 /* ParseUI.framework */,
+			);
+			path = "parse-library-1.11.0";
+			sourceTree = "<group>";
+		};
+		47BFE3AC1C3F9620004C90D4 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				47BFE3A61C3F93EE004C90D4 /* SystemConfiguration.framework */,
+				47BFE3941C3F93CB004C90D4 /* AudioToolbox.framework */,
+				47BFE3951C3F93CB004C90D4 /* CFNetwork.framework */,
+				47BFE3961C3F93CB004C90D4 /* CoreGraphics.framework */,
+				47BFE3971C3F93CB004C90D4 /* CoreLocation.framework */,
+				47BFE3981C3F93CB004C90D4 /* libsqlite3.tbd */,
+				47BFE3991C3F93CB004C90D4 /* libz.tbd */,
+				47BFE39A1C3F93CB004C90D4 /* QuartzCore.framework */,
+				47BFE39B1C3F93CB004C90D4 /* Security.framework */,
+				47BFE39C1C3F93CB004C90D4 /* StoreKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		47BFE3AF1C3F9660004C90D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47BFE3731C3F8007004C90D4 /* ViewController.swift */,
+				47BFE3AD1C3F9659004C90D4 /* PushNotificationController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		47BFE3B01C3F967E004C90D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		47BFE3B11C3F9684004C90D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				47BFE37D1C3F8007004C90D4 /* Info.plist */,
 				47BFE3831C3F8AC7004C90D4 /* ApiKeys.plist */,
 			);
-			path = WeatherAlerts;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BFE3AE1C3F9659004C90D4 /* PushNotificationController.swift in Sources */,
 				47BFE3741C3F8007004C90D4 /* ViewController.swift in Sources */,
 				47BFE3721C3F8007004C90D4 /* AppDelegate.swift in Sources */,
 				47BFE3861C3F8B5F004C90D4 /* ApiKeys.swift in Sources */,
@@ -258,10 +368,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeatherAlerts/parse-library-1.11.0",
+				);
 				INFOPLIST_FILE = WeatherAlerts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nas-Mac.WeatherAlerts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/bridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -269,10 +384,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeatherAlerts/parse-library-1.11.0",
+				);
 				INFOPLIST_FILE = WeatherAlerts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nas-Mac.WeatherAlerts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/bridgingHeader.h";
 			};
 			name = Release;
 		};
@@ -295,6 +415,7 @@
 				47BFE3821C3F8007004C90D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
